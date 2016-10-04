@@ -1,0 +1,41 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.page-header, .menu, .content, .info, .page-footer {
+    border: 1px solid black;
+}
+
+.menu, .content, .info {
+    float: left;
+    box-sizing: border-box;
+}
+
+.page-header {
+    background-color: red;
+}
+
+.page-header small {
+    font-size: .8em;
+}
+
+.menu {
+    width: 20%;
+    background-color: lightgreen;
+}
+
+.content {
+    width: 50%;
+    background-color: orange;
+}
+
+.info {
+    width: 30%;
+    background-color: lightblue;
+}
+
+.page-footer {
+    background-color: magenta;
+    clear: both;
+}

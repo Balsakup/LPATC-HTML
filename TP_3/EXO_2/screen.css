@@ -1,0 +1,117 @@
+body {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.banniere {
+    height: 80px;
+    line-height: 80px;
+}
+
+.banniere .logo, .banniere .menu {
+    width: 50%;
+    float: left;
+}
+
+.banniere .logo {
+
+}
+
+.banniere .menu ul li {
+    text-align: center;
+    width: calc(100% / 3);
+    float: left;
+}
+
+.banniere .menu ul li a {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.banniere .menu ul li.bouton-menu {
+    background-color: #F9F9F9;
+}
+
+.banniere .menu ul li.bouton-dkk {
+    background-color: #F4F4F4;
+}
+
+.banniere .menu ul li.bouton-panier {
+    background-color: #EDEDED;
+}
+
+.contenu .produits li {
+    float: left;
+    width: 50%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.contenu .produits li h2 {
+    color: white;
+    margin: 0;
+}
+
+.contenu .produits li.premier, .contenu .produits li.quatrieme {
+    background-color: #DBEAD8;
+}
+
+.contenu .produits li.deuxieme, .contenu .produits li.cinquieme {
+    background-color: #C2D4D8;
+}
+
+.contenu .produits li.troisieme, .contenu .produits li.sixieme {
+    background-color: #B0ABC3;
+}
+
+.pied .infos, .pied .paiement {
+    width: 50%;
+    float: left;
+    margin: 20px 0;
+}
+
+.pied .infos {
+    text-align: center;
+}
+
+.pied .infos ul li {
+    display: inline-block;
+}
+
+.pied .infos ul li a {
+    display: block;
+    padding: 0 15px;
+}
+
+.pied .paiement {
+    text-align: right;
+}
+
+.pied .paiement h3 {
+    margin: 0;
+}
+
+.pied .paiement h3, .pied .paiement ul {
+    display: inline-block;
+}
+
+.pied .paiement ul li {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    padding: 3px 6px;
+}
