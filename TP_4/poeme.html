@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Poème</title>
+        <link rel="stylesheet" href="css/jaune.css">
+        <link rel="stylesheet" href="css/toggle.css"><!-- Ne concerne pas l'exercice -->
+        <style>
+        .poeme p {
+            font-size: .9em; /* Ne concerne pas l'exercice */
+        }
+        </style>
+    </head>
+    <body>
+        <div class="toggle">
+            <button onclick="document.head.getElementsByTagName('link')[0].setAttribute('href', 'css/jaune.css')">Jaune</button>
+            <button onclick="document.head.getElementsByTagName('link')[0].setAttribute('href', 'css/rouge.css')">Rouge</button>
+        </div>
+        <header id="banniere">
+            <a href="#">
+                <h1>Plusieurs poèmes</h1>
+            </a>
+        </header>
+        <div id="contenu">
+            <nav id="menu">
+                <ul>
+                    <li><a href="poeme.html">Ma bohème</a></li>
+                    <li><a href="poeme.html">Liberté</a></li>
+                    <li><a href="poeme.html">J'ai tant rêvé de toi</a></li>
+                    <li><a href="poeme.html">Chanson d'automne</a></li>
+                </ul>
+            </nav>
+            <main id="principal">
+                <figure class="photo">
+                    <img src="img/desnos.jpg" alt="Robert Desnos">
+                    <figcaption>Robert Desnos</figcaption>
+                </figure>
+                <div class="poeme">
+                    <h1>J’ai tant rêvé de toi</h1>
+                    <p>J’ai tant rêvé de toi que tu perds ta réalité.<br>
+                    Est-il encore temps d’atteindre ce corps vivant<br>
+                    Et de baiser sur cette bouche la naissance<br>
+                    De la voix qui m’est chère?</p>
+                    <p>J’ai tant rêvé de toi que mes bras habitués<br>
+                    En étreignant ton ombre<br>
+                    A se croiser sur ma poitrine ne se plieraient pas<br>
+                    Au contour de ton corps, peut-être.<br>
+                    Et que, devant l’apparence réelle de ce qui me hante<br>
+                    Et me gouverne depuis des jours et des années,<br>
+                    Je deviendrais une ombre sans doute.<br>
+                    Ô balances sentimentales.</p>
+                    <p>J’ai tant rêvé de toi qu’il n’est plus temps<br>
+                    Sans doute que je m’éveille.<br>
+                    Je dors debout, le corps exposé<br>
+                    A toutes les apparences de la vie<br>
+                    Et de l’amour et toi, la seule<br>
+                    qui compte aujourd’hui pour moi,<br>
+                    Je pourrais moins toucher ton front<br>
+                    Et tes lèvres que les premières lèvres<br>
+                    et le premier front venu.</p>
+                    <p>J’ai tant rêvé de toi, tant marché, parlé,<br>
+                    Couché avec ton fantôme<br>
+                    Qu’il ne me reste plus peut-être,<br>
+                    Et pourtant, qu’à être fantôme<br>
+                    Parmi les fantômes et plus ombre<br>
+                    Cent fois que l’ombre qui se promène<br>
+                    Et se promènera allègrement<br>
+                    Sur le cadran solaire de ta vie.</p>
+                    <div class="signature">
+                        <p class="livre">Robert Desnos, Corps et biens.</p>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <footer id="pied">Les poèmes présents sur ce site sont dans le domaine public.</footer>
+    </body>
+</html>

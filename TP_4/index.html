@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Poèmes</title>
+        <link rel="stylesheet" href="css/jaune.css">
+        <link rel="stylesheet" href="css/toggle.css"><!-- Ne concerne pas l'exercice -->
+        <style>
+        .poeme p {
+            font-size: .9em; /* Ne concerne pas l'exercice */
+        }
+        </style>
+    </head>
+    <body>
+        <div class="toggle">
+            <button onclick="document.head.getElementsByTagName('link')[0].setAttribute('href', 'css/jaune.css')">Jaune</button>
+            <button onclick="document.head.getElementsByTagName('link')[0].setAttribute('href', 'css/rouge.css')">Rouge</button>
+        </div>
+        <header id="banniere">
+            <a href="#">
+                <h1>Plusieurs poèmes</h1>
+            </a>
+        </header>
+        <div id="contenu">
+            <nav id="menu">
+                <ul>
+                    <li><a href="poeme.html">Ma bohème</a></li>
+                    <li><a href="poeme.html">Liberté</a></li>
+                    <li><a href="poeme.html">J'ai tant rêvé de toi</a></li>
+                    <li><a href="poeme.html">Chanson d'automne</a></li>
+                </ul>
+            </nav>
+            <main id="principal">
+                <p class="accueil">Bienvenue sur ce site consacré à la poésie. Choisissez un poème dans le menu.</p>
+            </main>
+        </div>
+        <footer id="pied">Les poèmes présents sur ce site sont dans le domaine public. </footer>
+    </body>
+</html>

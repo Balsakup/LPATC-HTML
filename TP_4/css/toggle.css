@@ -1,0 +1,12 @@
+.toggle button {
+    width: 50%;
+    float: left;
+    font-size: 1.5em;
+    padding: 15px 0;
+}
+
+.toggle::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,0 +1,166 @@
+
+/* STRUCTURE GÉNÉRALE */
+
+html {
+	height: 100%;
+}
+
+body {
+  font-family: "Linux Libertine O", "Palatino Linotype", Georgia, serif;
+	font-size: 1.4em;
+	margin: 0;
+	min-height: 100%;
+	position: relative;
+}
+
+#banniere {
+}
+
+#contenu {
+  overflow: hidden;
+	padding-bottom: 2em;
+}
+
+#menu {
+  box-sizing: border-box;
+}
+
+#principal {
+  box-sizing: border-box;
+	max-width: 70em;
+	margin: auto;
+	padding: 1em;
+}
+
+#pied {
+  box-sizing: border-box;
+	height: 2em;
+	overflow: auto;
+	width: 100%;
+  margin-top: 1em;
+	position: absolute;
+	bottom: 0;
+}
+
+
+/* ENTÊTE ET PIED */
+
+#banniere, #pied {
+  background-color: #6D0808;
+	color: white;
+}
+#banniere a {
+  display: block;
+	color: inherit;
+  text-decoration: none;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 3em;
+
+  padding: 0;
+	margin: 0;
+}
+
+#banniere h1 {
+	margin: 0;
+}
+
+#pied {
+  font-size: .8em;
+	text-align: right;
+	padding-right: 5em;
+	line-height: 2em;
+}
+
+
+/* MENU */
+
+#menu {
+	border-bottom: 1px solid #6D0808;
+}
+
+#menu ul {
+	border: 1px solid white;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+  display: block;
+  font-weight: bold;
+  color: #6D0808;
+  background-color: white;
+  padding: 0 3em;
+	line-height: 3em;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+#menu a:hover {
+  color: white;
+  background-color: #6D0808;
+}
+
+
+/* PAGE D'ACCUEIL */
+
+.accueil {
+	width: 10em;
+	text-align: right;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: italic;
+	margin: 2em;
+}
+
+
+/* PAGE DES POEMES */
+
+.poeme {
+	display: inline;
+}
+
+.poeme h1 {
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+}
+
+.poeme p {
+	display: inline-block;
+	vertical-align: middle;
+	margin: .5em 2em;
+}
+
+
+.signature {
+	font-size: 1.3em;
+  text-align: right;
+}
+
+.signature .livre {
+	font-style: italic;
+}
+
+.photo {
+	float:left;
+  border: 3px solid #6D0808;
+	padding: 3px;
+  margin: 1em;
+  overflow: auto;
+}
+
+.photo img {
+	display: block;
+}
+
+.photo figcaption {
+	display: none;
+	margin: 0;
+}
