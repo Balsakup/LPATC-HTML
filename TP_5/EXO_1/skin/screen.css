@@ -1,0 +1,161 @@
+body, html {
+    font-family: sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banniere {
+    height: 100px;
+    line-height: 100px;
+}
+
+.banniere .logo {
+    float: left;
+    display: block;
+    height: 100%;
+    margin-right: 40px;
+}
+
+.contenu {
+    clear: both;
+}
+
+.contenu .article {
+    width: 560px;
+    float: right;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, .7);
+    border: 3px solid #000;
+    border-radius: 5px;
+    margin-left: 0px;
+    padding: 20px;
+}
+
+.contenu .article h2 {
+    border-bottom: 3px solid #000;
+    padding-bottom: 20px;
+    padding: 20px;
+    margin: 0 -20px 20px -20px;
+}
+
+.contenu .article .infos {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+}
+
+.contenu .article .infos .icone {
+    display: inline-block;
+    padding-left: 60px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    margin-right: 20px;
+}
+
+.contenu .article .infos .icone.prix {
+    background-image: url("img/iconePrix.png");
+}
+
+.contenu .article .infos .icone.temps {
+    background-image: url("img/iconeTemps.png");
+}
+
+.contenu .article .infos .icone.commentaires {
+    background-image: url("img/iconeCommentaires.png");
+}
+
+.contenu .article img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.contenu .menu {
+    width: 400px;
+    float: left;
+}
+
+.contenu .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contenu .menu ul li a {
+    display: block;
+    width: 100%;
+    height: 68px;
+    color: transparent;
+    background-repeat: no-repeat;
+}
+
+.contenu .menu ul li a.entrees {
+    background-image: url("img/entrees.png");
+}
+
+.contenu .menu ul li a.entrees:hover {
+    background-image: url("img/entrees_hover.png");
+}
+
+.contenu .menu ul li a.plats {
+    background-image: url("img/plats.png");
+}
+
+.contenu .menu ul li a.plats:hover {
+    background-image: url("img/plats_hover.png");
+}
+
+.contenu .menu ul li a.desserts {
+    background-image: url("img/desserts.png");
+}
+
+.contenu .menu ul li a.desserts:hover {
+    background-image: url("img/desserts_hover.png");
+}
+
+.contenu .menu ul li a.boissons {
+    background: url("img/boissons.png") no-repeat;
+}
+
+.contenu .menu ul li a.boissons:hover {
+    background-image: url("img/boissons_hover.png");
+}
+
+.pied {
+    clear: both;
+}
+
+.pied section {
+    float: left;
+}
+
+.pied .legale p {
+    background: url("img/logoCC-by-nc-sa.png") no-repeat left top;
+    padding-top: 40px;
+}
+
+.pied .partenaires ul {
+    list-style-type: none;
+}
+
+.pied .partenaires ul li {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding: 60px 40px 0 40px;
+}
+
+.pied .partenaires ul li.w3c {
+    background-image: url("img/logoW3c.png");
+}
+
+.pied .partenaires ul li.firefox {
+    background-image: url("img/logoFirefox.png");
+}
+
+.pied .partenaires ul li.ubuntu {
+    background-image: url("img/logoUbuntu.png");
+}

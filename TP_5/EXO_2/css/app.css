@@ -1,0 +1,198 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    background: #EEE url("../img/GlobalBackground.gif");
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #333;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    background-color: #FFF;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.header {
+    height: 280px;
+    background: url("../img/guitars-stratocaster.jpg") no-repeat;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: bold;
+    line-height: .85em;
+    padding: 40px;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 20px;
+    background: url("../img/main-img.jpg") no-repeat center center;
+    background-size: auto 100%;
+    overflow: auto;
+}
+
+.content::after {
+    content: ""
+    display: table;
+    clear: both;
+}
+
+.content .left, .content .right {
+    width: 32%;
+}
+
+.content .left {
+    float: left;
+}
+
+.content .left h2 {
+    margin-top: 20px;
+}
+
+.content .right {
+    float: right;
+}
+
+.content .right p {
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.content img {
+    display: block;
+    width: 100%;
+}
+
+.content p {
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.details {
+    padding: 20px;
+}
+
+.details::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.details ul {
+    margin: 0 -10px;
+}
+
+.details ul li {
+    background-color: #F5F5F5;
+    width: 220px;
+    float: left;
+    padding: 20px;
+    border: 2px solid #E5E5E5;
+    margin: 0 8px;
+    border-radius: 3px;
+    min-height: 310px;
+    font-size: .9em;
+}
+
+.details ul li .icon {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px auto;
+}
+
+.details ul li .icon.icon-guitare {
+    background: url("../img/guitar-body-icon.png") no-repeat;
+}
+
+.details ul li .icon.icon-electronics {
+    background: url("../img/electronics-icon.png") no-repeat;
+}
+
+.details ul li .icon.icon-hardwear {
+    background: url("../img/hardwear-icon.png") no-repeat;
+}
+
+.details ul li .icon.icon-neck {
+    background: url("../img/neck-icon.png") no-repeat;
+}
+
+.details ul li h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.details ul li p {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.footer {
+    background-color: #000;
+    color: #999;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
