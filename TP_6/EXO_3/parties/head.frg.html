@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Les insectes</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Les insectes</h1>
+            <div class="nav nav-pills" style="margin-bottom: 20px;">
+                <li class="<?= $_GET['page'] == 'coccinelle' ? 'active' : ''; ?>"><a href="?page=coccinelle">La coccinelle</a></li>
+                <li class="<?= $_GET['page'] == 'fourmi' ? 'active' : ''; ?>"><a href="?page=fourmi">La fourmi</a></li>
+                <li class="<?= $_GET['page'] == 'hanneton' ? 'active' : ''; ?>"><a href="?page=hanneton">Le hanneton</a></li>
+                <li class="<?= $_GET['page'] == 'papillon' ? 'active' : ''; ?>"><a href="?page=papillon">Le papillon</a></li>
+            </div>
