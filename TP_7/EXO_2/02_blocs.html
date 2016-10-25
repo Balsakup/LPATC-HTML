@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+	<meta charset=UTF-8 />
+	<title>Blocs</title>
+	<style>
+.wrapper {
+	width: 500px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.bloc {
+	display: block;
+	float: left;
+	width: 250px;
+	box-sizing: border-box;
+	background: gold;
+	border: 1px solid goldenrod;
+}
+	</style>
+</head>
+<body>
+<h1>Les deux blocs devraient être côte-à-côte</h1>
+
+<div class="wrapper">
+	<p>Je suis la <code>div</code> de classe wrapper.</p>
+	<div class="bloc">
+		Je suis une <code>div</code> de classe <code>bloc</code> !
+	</div>
+	<div class="bloc">
+		Moi aussi, je suis une <code>div</code> de classe <code>bloc</code>.
+	</div>
+</div>
+
+</body>
+</html>

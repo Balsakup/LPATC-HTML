@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang=fr>
+<head>
+	<meta charset=UTF-8 />
+	<title>Half</title>
+	<style>
+.parent {
+	height: 500px;
+	width: 500px;
+		border: 1px solid brown;
+}
+.half {
+	width: 50%;
+	height: 50%;
+	background: gold;
+}
+	</style>
+</head>
+<body>
+<h1>Le bloc ne respecte pas les contraintes de taille</h1>
+<div class="parent">
+	Je suis la div de classe parent. Je fais 500 pixels par 500 pixels.
+<div class="half">
+	Je suis une <code>div</code> de classe <code>half</code> :
+	ma largeur et ma hauteur devraient être 50% de celles de mon parent.
+</div>
+</div>
+
+</body>
+</html>

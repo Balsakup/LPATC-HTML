@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Archistico";
+    src: url("../fonts/Archistico_Simple-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Archistico";
+    font-weight: bold;
+    src: url("../fonts/Archistico_Bold-webfont.woff") format("woff");
+}
+
+@font-face {
+    font-family: "know_your_product";
+    src: url("../fonts/know_your_product-webfont.woff") format("woff");
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Archistico", sans-serif;
+    font-size: 5em;
+}
+
+h1 {
+    font-family: "know_your_product", sans-serif;
+}
+
+p {
+}
+
+strong {
+    font-weight: bold;
+}
