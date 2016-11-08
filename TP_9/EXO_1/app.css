@@ -1,0 +1,44 @@
+body, html {
+    background-color: red;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 10vh;
+}
+
+p {
+    width: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+    body, html {
+        background-color: blue;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    p {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+    h1 {
+        font-style: italic;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    h1 {
+        font-style: italic;
+        font-weight: normal;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        display: none;
+    }
+}

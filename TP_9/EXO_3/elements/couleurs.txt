@@ -1,0 +1,11 @@
+Items « About us » et « How to help » : #989B97 sur noir
+Item « Donate » : blanc sur #D8682A
+Item « Adopt » : blanc sur #EA890D
+Items du menu du haut quand survolés : blanc sur #222222
+Items du menu du bas quand survolés : bleu sur blanc 
+
+Fond de l'entête (moins de 768px) : #F4F4F4
+
+Bandeau sous le slider (moins de 1000px) : blanc et #797C79 sur #1E1E1E
+
+Texte des liens sous les photos : #006EA5

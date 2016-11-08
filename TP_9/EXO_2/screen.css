@@ -1,0 +1,121 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.banniere {
+    position: relative;
+    background-color: salmon;
+    text-align: center;
+    padding: 20px;
+}
+
+.banniere small {
+    display: block;
+    text-align: right;
+}
+
+.banniere small a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper .menu {
+    background-color: lightgreen;
+    flex: 0 0 180px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .wrapper .menu {
+        flex: 0 0 100%;
+    }
+
+    .wrapper .menu ul {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper .menu ul {
+        display: none;
+    }
+
+    .wrapper .menu::before {
+        content: 'M';
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background-color: lightgreen;
+        padding: 10px;
+    }
+}
+
+.wrapper .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .menu ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.wrapper .menu ul li a:hover {
+    background-color: darkgreen;
+}
+
+.wrapper .contenu {
+    background-color: orange;
+    padding: 20px;
+    text-align: justify;
+    flex: 1;
+}
+
+.wrapper .contenu > :first-child {
+    margin-top: 0;
+}
+
+.wrapper .contenu > :last-child {
+    margin-bottom: 0;
+}
+
+.wrapper .encadre {
+    background-color: lightblue;
+    padding: 20px;
+    flex: 0 0 250px;
+}
+
+.wrapper .encadre > :first-child {
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .wrapper .encadre {
+        flex: 0 0 100%;
+    }
+}
+
+.pied {
+    background-color: magenta;
+    clear: both;
+}
+
+.pied > :first-child {
+    padding: 20px;
+    margin-top: 0;
+}
