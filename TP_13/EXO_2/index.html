@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title></title>
+    </head>
+    <body>
+        <form action="recup.php" method="POST">
+            <label for="nom">Votre nom</label>
+            <input type="text" id="nom" name="nom">
+            <fieldset>
+                <legend>Les langues que vous parlez</legend>
+                &nbsp;&nbsp;&nbsp;&nbsp;<label>
+                    <input type="checkbox" name="langue[]" value="fr">
+                    français
+                </label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<label>
+                    <input type="checkbox" name="langue[]" value="en">
+                    anglais
+                </label><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<label>
+                    <input type="checkbox" name="langue[]" value="de">
+                    allemand
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Votrecouler préféréé</legend>
+                <label>
+                    <input type="radio" name="couleur" value="rouge">
+                    rouge
+                </label>
+                <label>
+                    <input type="radio" name="couleur" value="bleu">
+                    bleu
+                </label>
+                <label>
+                    <input type="radio" name="couleur" value="vert">
+                    vert
+                </label>
+            </fieldset>
+            <button type="submit">Envoyer</button>
+        </form>
+    </body>
+</html>
